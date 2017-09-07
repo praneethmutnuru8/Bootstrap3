@@ -1,0 +1,222 @@
+
+
+/* navbar styling*/
+#searchInput {
+	width: 300px;
+}
+
+.navbar-brand {
+	padding: 13px 15px;
+}
+
+.cont{
+	background: Black;
+	
+}
+.navl{
+	padding-left: 100px;
+	color:White;
+	
+}
+
+.navl li{padding-left:10px;}
+.collapse{
+	margin-top: 30px;
+}
+.navf{
+	padding-left: 10px;
+}
+/*--------------------------------------------------------------------*/
+/*Carousel Items*/
+#myCarousel {
+
+margin-top: 60px;
+background: White;
+
+}
+
+#myCarousel {
+	margin-top: 60px;
+}
+
+.carousel-caption {
+	font-size: 24px;
+	margin-top: 10px;
+	color: Black;
+}
+
+.carousel-caption h4 {
+	font-size: 32px;
+	color:Black;
+}
+
+#myCarousel .item { height: 280px; }
+
+#slide1 {
+	background: url("../../images/el3.jpg") top center no-repeat;
+}
+
+#slide2 {
+	background: url('../../images/soft3.jpg') top center no-repeat;
+}
+
+#slide3 {
+	background: url('../../images/ana3.jpg') top center no-repeat;
+}
+#slide4 {
+	background: url('../../images/mana3.jpg') top center no-repeat;
+}
+#slide5 {
+	background: url('../../images/comp3.png') top center no-repeat;
+}
+
+
+@media (max-width: 480px) {
+	
+ #myCarousel .item { height: 180px;
+ }
+	
+#slide1 {
+	background: url("../../images/el4.jpg") top center no-repeat;
+}
+
+#slide2 {
+	background: url('../../images/soft5.jpg') top center no-repeat;
+}
+
+#slide3 {
+	background: url('../../images/ana4.jpg') top center no-repeat;
+}
+#slide4 {
+	background: url('../../images/mana5.jpg') top center no-repeat;
+}
+#slide5 {
+	background: url('../../images/comp5.png') top center no-repeat;
+}
+
+	
+	.carousel-caption {
+		font-size: 5px;
+		margin-top: 100px;
+		color: Black;
+	}
+	
+	.carousel-caption h4 {
+		font-size: 10px;
+		margin-top: 100px;
+		color: Black;
+	}
+	
+}
+	
+}
+
+
+@media (min-width: 768px) {
+	
+	#myCarousel .item { height: 410px; }
+	
+#slide1 {
+	background: url("../../images/el2.jpg") top center no-repeat;
+}
+
+#slide2 {
+	background: url('../../images/soft2.jpg') top center no-repeat;
+}
+
+#slide3 {
+	background: url('../../images/ana2.jpg') top center no-repeat;
+}
+#slide4 {
+	background: url('../../images/mana2.jpg') top center no-repeat;
+}
+#slide5 {
+	background: url('../../images/comp2.png') top center no-repeat;
+}
+
+	
+	.carousel-caption {
+		font-size: 16px;
+		color: Black;
+	}
+	
+	.carousel-caption h4 {
+		font-size: 22px;
+		color: Black;
+	}
+	
+}
+
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+#myCarousel .item { 
+	 height: 515px;
+ }
+
+#slide1 {
+	background: url("../../images/el1.jpg") top center no-repeat;
+}
+
+#slide2 {
+	background: url('../../images/soft1.jpg') top center no-repeat;
+}
+
+#slide3 {
+	background: url('../../images/ana1.jpg') top center no-repeat;
+}
+#slide4 {
+	background: url('../../images/mana1.jpg') top center no-repeat;
+}
+#slide5 {
+	background: url('../../images/comp1.png') top center no-repeat;
+}
+
+
+ /*Carousel Caption */
+.cap{
+	color:Black;
+	background: White;
+	border:0px;
+}
+/*--------------------------------------------------------------------*/
+
+
+#Callout{
+	margin-top: 50px;
+	width: 1174px;
+	margin-left:0px;
+}
+/* Courses (Thumbnails) Styling*/
+.course{
+	margin-top: 20px;
+	outline-offset: 1px;
+	text-align: center;
+}
+
+.sec{
+    margin-top: 20px;
+	margin-left: -390px;
+}
+.gre{
+	height: 400px;
+	width: 600px;
+}
+/*--------------------------------------------------------------------*/
+/*Form Styling*/
+.form1{
+	margin-left:  100px;
+}
+/*--------------------------------------------------------------------*/
+/*Tabbable content styling*/
+#moreInfo{
+	margin-left:  30px;
+}
+/*--------------------------------------------------------------------*/
+/*Footer Styling*/
+footer{
+	background:Black;
+	color:White;
+}
+
