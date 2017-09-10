@@ -75,14 +75,14 @@
 							</li>
 						</ul>
 						
-						<form class="navbar-form pull-left navf">
-							<input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
-							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
-						</form><!-- end navbar-form -->
+						<!--<form class="navbar-form pull-left navf">
+							<input type="text" class="form-control" placeholder="Search this site..." id="searchInput">-->
+							
+						<!--</form> end navbar-form --> 
 						
 						<ul class="nav navbar-nav pull-right">
 							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> My Account <strong class="caret"></strong></a>
+								<a href="#" class="dropdown-toggle myac" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> My Account <strong class="caret"></strong></a>
 								
 								<ul class="dropdown-menu">
 									<li>
@@ -105,75 +105,61 @@
 								</ul>
 							</li>
 						</ul>
+						<button type="submit" class="btn btn-default bn pull-right"><span class="glyphicon glyphicon-search"></span></button>
 					</div>
 				</div>
 			</div>
-	  <header>
-            <br>
-            <br>
+	  </header>
+            
             <hr>
-      <section> 
-           
-			<div class="carousel slide" id="myCarousel"><!--Carousel development-->
-			
-				
-				<ol class="carousel-indicators">
-					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
-					<li data-slide-to="1" data-target="#myCarousel"></li>
-					<li data-slide-to="2" data-target="#myCarousel"></li>
-					<li data-slide-to="3" data-target="#myCarousel"></li>
-					<li data-slide-to="4" data-target="#myCarousel"></li>
+         <section> 
+		    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+		      <!-- Indicators -->
+		      <ol class="carousel-indicators">
+		       	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		    	<li data-target="#myCarousel" data-slide-to="1"></li>
+		    	<li data-target="#myCarousel" data-slide-to="2"></li>
+		    	<li data-target="#myCarousel" data-slide-to="3"></li>
+		    	<li data-target="#myCarousel" data-slide-to="4"></li>
+		 	  </ol>
 
-				</ol>
-			
-				<!-- Wrapper for slides -->
-				<div class="carousel-inner">
-					<div class="item active" id="slide1">
-						<div class="carousel-caption cap">
-							<h4>E-Learning</h4>
-							<p>Effective way to develop skills so that you get skilled for a better future</p>
-						</div>
-					</div>
-					
-					<div class="item" id="slide2">
-						<div class="carousel-caption cap">
-							<h4>Software development</h4>
-							<p>Be a better developer and enhace your software skills</p>
-						</div>
-					</div>
-					
-					<div class="item" id="slide3">
-						<div class="carousel-caption cap">
-							<h4>Data Analytics</h4>
-							<p>Learn to Be a part of Big Data Analytics</p>
-						</div>
-					</div>
-					<div class="item" id="slide4">
-						<div class="carousel-caption cap">
-							<h4>Management courses</h4>
-							<p>Learn how to be a professional</p>
-						</div>
-					</div>
-					<div class="item" id="slide5">
-						<div class="carousel-caption cap">
-							<h4>Coaching for Competetive examinations</h4>
-							<p>Train yourself to be an exceller in competetive exams</p>
-						</div>
-					</div>
-				</div>
-				
-				<!-- Controls -->
-				<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
-				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
-			
-			</div><!-- end of Carousel -->
-          
-      </section>
-      <section> 
-          
-			<div class="row" id="Callout"><!--Callout creation--> 
-			  
-				<div class="well">
+		      <!-- Wrapper for slides -->
+		  	  <div class="carousel-inner">
+		   		<div class="item active">
+		      		<img src="images/main/el1.jpg" class="img-responsive" alt="car1">
+		    	</div>
+
+		   	 	<div class="item">
+		      		<img src="images/main/ana1.jpg" class="img-responsive" alt="car2">
+		     	</div>
+
+		      	<div class="item">
+		            <img src="images/main/sofdev1.png" class="img-responsive" alt="car3">
+		      	</div>
+		      	<div class="item">
+		     	 	<img src="images/main/comp1.png" class="img-responsive" alt="car4">
+		      	</div>
+		      	<div class="item">
+		      		<img src="images/main/bm1.jpg" class="img-responsive" alt="car5">
+		      	</div>
+     		  </div>
+
+		 	 <!-- Left and right controls -->
+		      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+		   	  <span class="glyphicon glyphicon-chevron-left"></span></a>
+		  	  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+		      <span class="glyphicon glyphicon-chevron-right"></span></a>
+		    </div>
+
+
+	     </section>
+	     <br>
+	     <br>
+         <section> 
+          <div class="container" id="Callout">
+			<!--Callout creation--> 
+			 
+				<div class="well well-xs">
 						<div class="page-header">
 							<h1>New Age Pvt Ltd <small>Achieving Excellence at work</small></h1>
 						</div>
@@ -182,21 +168,21 @@
 						<p>We at New Age provide first class training to individuals aiming at achieving excellent career in various professional fields.With over 30 years of experience in the teaching field and our track record of good achievement of our students ,we assure you that we would help you in all aspects to achieve your goals.Connect with us to know more about us</p>
 
 											
-				</div><!-- end of Callout -->
-			</div>
-	
-	  </section>
-	  <section>
+				</div>
+			   </div><!-- end of Callout -->
+			  
+	     </section>
+	     <section>
 	    		
 		<!--Thumbnails for courses, declaration -->
-           <div class="courses_main">
-            <h1>Courses Offered</h1>
-            <p>The following are the categories of courses.Please select your interested fields</p>
-			<div class="col-sm-4 course">
-			  <div class="thumbnail">
-			    <img  src="images/soft4.jpg" alt="software">
-			  	<h2 class="th">Software Skill Development</h2>
-                <p>Our goal is to train the students and turn them in IT Professionals wherein they can lead and innovate in the booming software sector.We provide training in the following domains.                 </p>
+          <div class="courses_main">
+            <h1 class="tit">Courses Offered</h1>
+            <p class="tit">The following are the categories of courses.Please select your interested fields</p>
+			<div class="col-sm-4 img-rounded course">
+			  <div class="thumbnail tex">
+			    <img  src="images/main/soft4.jpg" alt="software" class="image-responsive">
+			  	<h2>Software Skill Development</h2>
+                <p>Software sector is one of the fields; preferred by many people.Our goal is to train the students and turn them in IT Professionals wherein they can lead and innovate in the booming software sector.There are many softwares and we are primarily focussing on the market requirement in the following domains.</p><br>
                     <div class="list-group"> <!--List Group-->
 						<a href="#" class="list-group-item">
 							<h6 class="list-group-item-heading">C and C++</h6>
@@ -225,11 +211,11 @@
 			</div>
 	
 		
-			<div class="col-sm-4 course">
+			<div class="col-sm-4 course1">
 			  <div class="thumbnail">
-			    <img class="im1" src="images/dat4.jpg" alt="software">
-			  	<h2 class="th">Data Analytics</h2>
-                <p > Data Analytics is one of the most booming sectors in the technological field. The amount of data being generated and stored is humongous in volume and memory ;It is alarming regarding the retrieval maintenance and handling of the data where a lot of people are working and showing great interest.</p> <p>Our goal is to train the students and turn them in Data Analytics Professionals wherein they can manipulate the data and perform tasks very efficiently in this  sector.We provide the following courses in this domain.                	
+			    <img class="im1" src="images/dat4.jpg" alt="software" class="image-responsive">
+			  	<h2 class="th"> Data Analytics</h2>
+                <p > Data Analytics is one of the most booming sectors in the technological field. The data storage handling and retrieval and maintenance and analysis has become a very tedious task and are trying to finding a solution .Even research is being made in this direction .</p><p>Many people have shown interest in this field and we train the students in the following courses in Data Analytics.          	
                 </p>
                  <div class="list-group">
 						<a href="#" class="list-group-item">
@@ -242,14 +228,15 @@
 							<h6 class="list-group-item-heading">SAS</h6>
 						</a>
 						<a href="#" class="list-group-item">
-							<h6 class="list-group-item-heading">Ms Excell</h6>
-						</a>
-						<a href="#" class="list-group-item">
 							<h6 class="list-group-item-heading">Python</h6>
 						</a>
 						<a href="#" class="list-group-item">
 							<h6 class="list-group-item-heading">Machine Learning</h6>
 						</a>
+						<a href="#" class="list-group-item">
+							<h6 class="list-group-item-heading">SPSS</h6>
+						</a>
+						
 						
 					</div><!-- list-group -->
                 </div>
@@ -259,26 +246,20 @@
 		    
 			<div class="col-sm-4 course">
 			  <div class="thumbnail">
-			    <img class="im1" src="images/mana4.png" alt="software">
-			  	<h2>Management Courses training</h2>
-			  	<p>Management skills are the foundation for any corporate functionality. It is seen that most of Managers come from different backgrounds so it is required to improve their Manegerial skills. These courses are also helpful to those from technical and other backgrounds who are aspiring to take up any manegerial positions in corporates. This also helps in interviews of MBA colleges also.</p>
+			    <img class="im1" src="images/main/mana4.png" alt="software" class="image-responsive">
+			  	<h2>Management Skills training</h2>
+			  	<p>Management skills are the foundation for any corporate functionality. These courses are for beginners to start off in their career. This also helps people in in selecting MBA as a career.MBA is one of best fetching careers for all as you make more money</p>
                 <p>We have the following courses for your development of your manegerial skills.Please choose according to your interests and those which benefit you.              	
                 </p>
                 <div class="list-group">
 						<a href="#" class="list-group-item">
-							<h6 class="list-group-item-heading">Consulting </h6>
+							<h6 class="list-group-item-heading">HRD </h6>
 						</a>
 						<a href="#" class="list-group-item">
-							<h6 class="list-group-item-heading">HR </h6>
-						</a>
-						<a href="#" class="list-group-item">
-							<h6 class="list-group-item-heading">Operational Management - Manufacturing</h6>
+							<h6 class="list-group-item-heading">Operations</h6>
 						</a>
 						<a href="#" class="list-group-item">
 							<h6 class="list-group-item-heading">IT Management</h6>
-						</a>
-						<a href="#" class="list-group-item">
-							<h6 class="list-group-item-heading">Infrastructure Management</h6>
 						</a>
 						<a href="#" class="list-group-item">
 							<h6 class="list-group-item-heading">Marketing</h6>
@@ -294,48 +275,44 @@
                 		
 			  </div>
 			</div>
-	
-			<br>
-			<br>
-			<br>
-		
+		  </div>
+	  
+	     </section>
+	    
+			
+	     <section>
+	      <div class="container">
+	       <div class="col-sm-12">
 		    <div class="col-sm-6 sec">
-			  <div class="thumbnail">
-			    <img class="gre" src="images/comp4.png" alt="software">
+			  <div class="thumbnail ">
+			    <img class="gre" src="images/main/comp4t.png" class="image-responsive " alt="software">
 			  	<h2>Competetive Exam Prepartaion</h2>
 			  	<p>Competetive Exams are the most awaited in our country and mostly attempted by all graduates of the country. </p>
                 <p> We offer long term and short term coaching for the following courses.  </p> 
                 <div class="list-group">
 						<a href="#" class="list-group-item">
-							<h6 class="list-group-item-heading">GRE </h6>
+							<h6 class="list-group-item-heading">GRE and GMAT  </h6>
 						</a>
 						<a href="#" class="list-group-item">
-							<h6 class="list-group-item-heading">GMAT </h6>
-						</a>
-						<a href="#" class="list-group-item">
-							<h6 class="list-group-item-heading">CAT</h6>
-						</a>
-						<a href="#" class="list-group-item">
-							<h6 class="list-group-item-heading">IBPS</h6>
+							<h6 class="list-group-item-heading">CAT and IBPS </h6>
 						</a>
 						<a href="#" class="list-group-item">
 							<h6 class="list-group-item-heading">GROUP 1 and 2</h6>
 						</a>
 						
-					</div><!-- list-group -->      	
+				</div><!-- list-group -->      	
                                 
               </div>
-				
 		    </div>
        
-        
-		    <div class="col-sm-6 course">
+            <div class="col-sm-6 course">
 			  <div class="thumbnail">
-			    <img src="images/schol.png" alt="software">
+			    <img src="images/main/schol1.png" class="image-responsive" alt="software">
 			  	<h2>Pre Undergraduate Training</h2>
                 <p>This a new sector where we would like to expand ourselves into
                 We would like to offer coaching for:                	
                 </p>
+                <div class="list-group">
                 		<a href="#" class="list-group-item">
 							<h6 class="list-group-item-heading">JEE Advanced </h6>
 						</a>
@@ -349,18 +326,17 @@
 							<h6 class="list-group-item-heading">Medical Examinations</h6>
 						</a>
 						
-					</div><!-- list-group -->
-               </div>
-				
-		    </div>
-
-		  
+			    </div><!-- list-group -->
+              </div>
+			</div>
+		   </div>
 		  </div>
-	  
-	  </section>
+
+	    </section>
+		  
 		  <hr>
 		  <br>
-	  <section>
+	     <section>
 	    
 		  <div class="form1"><!-- Feedback forms from customers-->
 		   <h4>You can choose your courses by subscribing over here. Also you can write to us for any queries </h4>
@@ -438,68 +414,70 @@
 	       </div>
 	       <br>
 	   
-	  </section>
-	  <section>
+	    </section>
+	    <section>
 	    
 
            <div class="row" id="moreInfo">
-				<div class="col-sm-6">
+				<div>
 					<h3>Other Information</h3>
 					<div class="tabbable">
 						<ul class="nav nav-tabs">
 							<li class="active"><a href="#tab1" data-toggle="tab">Office Location</a></li>
-							<li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+							
 						</ul>
 						<div class="tab-content">
 							<div class="tab-pane active" id="tab1">
 															
-								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.569209115044!2d77.61174605001169!3d12.935386290834854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae144e0c7d418f%3A0x48d008360cebcde4!2sStackroute!5e0!3m2!1sen!2sin!4v1504701219614" width="600" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.569209115044!2d77.61174605001169!3d12.935386290834854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae144e0c7d418f%3A0x48d008360cebcde4!2sStackroute!5e0!3m2!1sen!2sin!4v1504701219614" width="1200px" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
 								
 							</div><!-- end tab-pane -->
+						</div>
+					</div>
+				</div>
+		   </div>	
 							
-							<div class="tab-pane" id="tab2"></div>
 						
-         </section>
+        </section>
          <br>
          <br>
-      <footer><!--footer declaration-->
+     
+      <footer>
       	<div class="container">
-				<div class="row">
-					<div class="col-sm-4">
-					<h6>Copyright &copy; 2017 New Age Pvt Ltd</h6>
-					</div>
-										
-					
-					<div class="col-sm-6">
-						<h6>Navigation</h6>
-						<ul class="unstyled">
-							<li><a href="#">Home</a></li>
-							<li><a href="#">Services</a></li>
-							<li><a href="#">Links</a></li>
-							<li><a href="#">Contact</a></li>
-						</ul>
-					</div>
-					
-					<div class="col-sm-2">
-						<h6>Follow Us</h6>
-						<ul class="unstyled">
-							<li><a href="#">Twitter</a></li>
-							<li><a href="#">Facebook</a></li>
-							<li><a href="#">Youtube</a></li>
-							<li><a href="#">Google+</a></li>
-							<li><a href="#">LinkedIn</a></li>
-
-						</ul>
-					</div>
-					
-					</div>
-			</div>
-
-      </footer>
+      				<div class="row foo">
+      					<div class="col-sm-4">
+      					<h6>Copyright &copy; 2017 New Age Pvt Ltd</h6>
+      					</div>
+      										
+      					
+      					<div class="col-sm-5">
+      						<h4>Navigation</h4>
+      						<ul class="unstyled">
+      							<li><a href="#">Home</a></li>
+      							<li><a href="#">Services</a></li>
+      							<li><a href="#">Links</a></li>
+      							<li><a href="#">Contact</a></li>
+      						</ul>
+      					</div>
+      					
+      					<div class="col-sm-3">
+      						<h4>Follow Us</h4>
+      						<ul class="unstyled">
+      							<li><a href="#">Twitter</a></li>
+      							<li><a href="#">Facebook</a></li>
+      							<li><a href="#">Youtube</a></li>
+      							<li><a href="#">Google+</a></li>
+      							<li><a href="#">LinkedIn</a></li>
+      
+      						</ul>
+      					</div>
+      					
+      				</div>
+      		</div>
+      
+      </footer> 
 			
-	<!-- Your Code Goes Here. Remember to remove this comment once you've started, you don't need it :) -->
 	
-
 	<!-- All Javascript at the bottom of the page for faster page loading -->
 		
 	<!-- First try for the online version of jQuery-->
