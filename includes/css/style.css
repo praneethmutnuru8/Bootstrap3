@@ -12,7 +12,7 @@ ul.unstyled {
 	padding: 10px;
 	
 }
-
+/*-----------------------------------------------------------------*/
  /*navbar styling*/
 
 .bn{
@@ -104,5 +104,16 @@ footer {
 
  #searchInput {
 	width: 200px;
+}
+
+@media (max-width: 480px)
+{
+	.acco{
+		margin-left: 100px;
+	}
+	.foos{
+		margin-top: 20px !important;
+		margin-left: 20px !important;
+	}
 }
 
